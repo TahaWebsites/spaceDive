@@ -1,0 +1,33 @@
+.media {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#userInput {
+    width: 100%;
+    border: none;
+    background-color: white;
+    outline: none;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#userInput::placeholder {
+    font-style: italic;
+}
+
+.solarDataSet {
+    column-count: 3; 
+    column-gap: 1rem;
+    padding: 5rem;
+}

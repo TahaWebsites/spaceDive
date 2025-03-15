@@ -1,0 +1,166 @@
+@media screen and (max-width: 912px) {
+    .landingPage{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    #explore {
+        padding: 1rem;
+    }
+
+    .exploreCards {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    #technicalDetails {
+        padding: 2rem;
+    }
+
+    .technical {
+        flex-direction: column;
+        margin: 1rem 0;
+    }
+
+    .technicalContent {
+        padding: 0 1rem;
+        margin: 2rem 0;
+    }
+
+    .technical img {
+        width: 100%;
+        height: auto;
+        margin: 1rem 0;
+    }
+    
+    #techUsed {
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    #techUsed a {
+        width: 100%;
+    }
+
+
+    /* solar sytem  */
+
+    .planetDataSet {
+        column-count: 1;
+        padding: 2rem;
+    }
+
+    .planets {
+        width: 100vw;
+        overflow: scroll;
+        justify-content: left;
+    }
+
+    .body {
+        overflow: hidden;
+    }
+
+    /* earth */
+
+    .mainEarthPage {
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .mainImg {
+        width: 90vw;
+        height: auto;
+    }
+
+    .thumbnails {
+        flex-direction: row;
+        width: 90vw;
+        height: 5%;
+        margin: 2rem 0;
+    }
+
+    .thumbImg {
+        width: 5%;
+    }
+
+    .mainDetails {
+        margin: 2rem 0;
+        width: 90vw;
+    }
+
+    .earthCard {
+        width: 40%;
+        margin: 1rem 0;
+    }
+
+    .earthButtons {
+        flex-direction: column;
+    }
+
+    .earthButtons a {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .earthArchives {
+        column-count: 1;
+        padding: 2rem;
+    }
+
+    /* mars */
+    
+    .marsLandingPage {
+        padding: 2rem;
+    }
+
+    .marsData {
+        column-count: 1;
+        padding: 1rem;
+        margin: 2rem 0;
+    }
+    
+    .cameras {
+        text-align: center;
+    }
+
+    /* media  */
+
+    .solarDataSet {
+        column-count: 1;
+        padding: 2rem;
+    }
+
+    .media {
+        margin: 2rem 0;
+    }
+
+    /* apod */
+    .sidePanel {
+        width: 100%;
+    }
+
+    .apod img {
+        height: auto;
+    }
+
+    .underline  {
+        text-decoration: underline;
+    }
+
+    /* page stylin  */
+
+    .page {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .detailsPageTextContent {
+        padding: 1.5rem;
+    }
+}

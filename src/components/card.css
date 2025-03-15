@@ -1,0 +1,25 @@
+.cardComponent {
+    margin: 1rem 0;
+    background-color: #252525;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.cardComponent {
+    display: inline-block; /* Ensures cards respect column flow */
+    width: 100%;
+}
+
+.cardImg {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.cardTextContent {
+    padding: 1rem;
+}
+.cardTextContent p:nth-child(2) {
+    margin: 0.5rem 0 2rem 0;
+}

@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Exo", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.landingPage {
+    width: 100vw;
+    height: 100vh;
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.heading {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+.hero h3 {
+    margin: 1rem 0;
+}
+
+.hero a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    margin: 1rem 0.5rem;
+    width: 17.5rem;
+    border: 1px solid;
+}
+
+.landingPage img {
+    width: 100%;
+}
+
+.buttons a:hover {
+    background-color: #535bf2;
+    color: #fff;
+}
+
+#explore {
+    width: 100%;
+    min-height: 100vh;
+    padding: 2rem 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.exploreText {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.exploreText h2,
+.exploreText p {
+    margin: 1rem 0;
+}
+
+.exploreText p {
+    width: 70%;
+    margin: 0 0 3rem 0;
+}
+
+.exploreCards {
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem 0 0 0;
+    flex-wrap: wrap; /* Ensures responsiveness */
+    gap: 2rem; /* Adds spacing between cards */
+}
+
+.card {
+    width: 30%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    min-height: 62.5vh; /* Ensures minimum height */
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+    border: 5px solid black;
+}
+
+.cardContent {
+    flex-grow: 1; /* Expands to fill available space */
+    padding: 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cardButtons {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px dotted;
+}
+
+.cardButton {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    border-top: 1px dotted;
+    text-decoration: none;
+    color: white;
+}
+
+.cardButton:nth-child(1) {
+    border-right: 1px dotted;
+}
+
+
+#technicalDetails {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+}
+
+.technicalDetailsContent {
+    margin: 1rem 0 3rem 0;
+    text-align: center;
+}
+
+.technicalDetailsContent h2 {
+    margin: 2rem 0;
+}
+
+.technicalDetailsContent p {
+    text-align: justify;
+}
+
+.technical {
+    margin: 3rem 0;
+}
+
+.technical1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.technical2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.technicalContent {
+    padding: 0 5rem;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    margin: 1rem 0;
+}
+
+.technicalContent h2 {
+    display: flex;
+    align-items: center;
+}
+
+.technical img {
+    width: 50%;
+    height: 83vh;
+    border-radius: 0.5rem;
+}
+
+#techUsed {
+    width: 100%;
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#techUsed a {
+    width: 32.5%;
+    margin: 0.25rem 0;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#techUsed a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#techUsed i {
+    font-size: 3rem;
+    margin: 0 2rem;
+}
