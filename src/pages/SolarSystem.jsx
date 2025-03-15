@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
-import '../styles/SolarSystem.css';
+import '../styles/solarSystem.css';
 import Card from '../components/Card';
 
 function SolarSystem() {
