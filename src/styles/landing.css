@@ -189,6 +189,7 @@
 .technicalContent h2 {
     display: flex;
     align-items: center;
+    margin: 1rem 0;
 }
 
 .technical img {
