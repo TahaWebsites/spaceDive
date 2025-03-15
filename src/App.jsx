@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import NavDiv from './components/navDiv'
+import NavDiv from './components/NavDiv'
 import Landing from './pages/Landing.jsx'
 import Earth from './pages/Earth.jsx'
 import SolarSystem from './pages/SolarSystem.jsx'
