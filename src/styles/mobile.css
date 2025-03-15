@@ -9,6 +9,7 @@
 
     #explore {
         padding: 1rem;
+        margin: 2rem 0;
     }
 
     .exploreCards {
@@ -21,16 +22,22 @@
 
     #technicalDetails {
         padding: 2rem;
+        min-height: 100vh;
     }
 
     .technical {
         flex-direction: column;
         margin: 1rem 0;
+        height: fit-content;
     }
 
     .technicalContent {
         padding: 0 1rem;
-        margin: 2rem 0;
+        height: auto;
+    }
+
+    .technicalContent p {
+        margin: 1rem 0;
     }
 
     .technical img {
@@ -41,7 +48,7 @@
     
     #techUsed {
         flex-direction: column;
-        padding: 2rem 0;
+        padding: 2rem;
     }
 
     #techUsed a {
@@ -70,7 +77,8 @@
 
     .mainEarthPage {
         flex-direction: column;
-        padding: 2rem;
+        padding: 0;
+        height: auto;
     }
 
     .mainImg {
@@ -95,7 +103,7 @@
     }
 
     .earthCard {
-        width: 40%;
+        width: 45%;
         margin: 1rem 0;
     }
 
@@ -109,8 +117,9 @@
     }
 
     .earthArchives {
+        width: 100vw;
         column-count: 1;
-        padding: 2rem;
+        padding: 1rem;
     }
 
     /* mars */
@@ -121,7 +130,7 @@
 
     .marsData {
         column-count: 1;
-        padding: 1rem;
+        padding: 0;
         margin: 2rem 0;
     }
     
@@ -143,6 +152,11 @@
     /* apod */
     .sidePanel {
         width: 100%;
+        height: auto;
+    }
+
+    .apod button {
+        margin: 2rem 0;
     }
 
     .apod img {
